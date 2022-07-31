@@ -1,0 +1,40 @@
+#work {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#work h5 {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+#work .workblock {
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 20px 0px;
+}
+#work .workblock:last-child {
+  border-bottom: 0px;
+}
+#work h6.position {
+  margin-top: -7px;
+}
+@media (max-width: 400px) {
+  #work h5 {
+    font-size: 1.1rem !important;
+    margin-left: 24vw;
+  }
+  #work h2 {
+    font-size: 1.8rem !important;
+    margin-left: 23vw;
+  }
+  #work .container {
+    margin-bottom: 25vh;
+  }
+  #work h6 {
+    font-size: 1.1rem !important;
+    margin-left: 24vw;
+    margin-top: 3vh;
+  }
+}
