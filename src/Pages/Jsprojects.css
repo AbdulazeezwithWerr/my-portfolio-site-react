@@ -40,9 +40,9 @@
 }
 @media (max-width: 400px) {
   .jsprojects h2 {
-    margin-left: 25vw;
+    margin-left: 27vw;
     font-size: 2rem !important;
-    margin-top: -10vh;
+    margin-top: -11vh;
   }
   .project-name {
     font-size: 1.4rem !important;
@@ -55,8 +55,9 @@
     margin-left: 7.5vw;
   }
   .jsprojects .image-for {
-    width: 73.5vw;
+    width: 79vw;
     height: 35vh;
+    margin-left: -3.7vw;
   }
   .jsprojects .div-for-btn .btn {
     font-size: 1rem !important;
@@ -64,10 +65,44 @@
     justify-content: space-between;
     margin-left: 1vw;
     height: 12vh;
-    width: 36vw;
+    width: 40vw;
     padding-top: 0vh !important;
   }
   .jsprojects .div-for-btn {
-    margin-left: 3.6vw;
+    margin-left: -1.8vw;
+  }
+}
+@media (max-width: 320px) {
+  .jsprojects h2 {
+    margin-left: 20vw;
+    font-size: 1.8rem !important;
+    margin-top: -12vh;
+  }
+  .project-name {
+    font-size: 1.3rem !important;
+    text-align: center;
+    margin-left: 2vw;
+  }
+  .jsprojects .image-for {
+    width: 80vw;
+    height: 31vh;
+  }
+  .jsprojects .row {
+    margin-left: 3.1vw;
+  }
+  .jsprojects .div-for-btn .btn {
+    font-size: 0.9rem !important;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    height: 11vh;
+    width: 40vw;
+    /* padding-right: 25vw!important; */
+    padding-top: 0vh !important;
+  }
+  .jsprojects .div-for-btn {
+    margin-left: 4.4vw;
+  }
+  .jsprojects .div-for-btn a {
   }
 }

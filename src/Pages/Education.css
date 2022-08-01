@@ -56,26 +56,41 @@
 
 @media (max-width: 400px) {
   #education .educationblock {
-    margin-left: 24vw;
+    margin-left: 5vw;
   }
   #education .educationblock h5 {
     font-size: 1.2rem !important;
-    margin-top: -2vh;
+    margin-top: 5vh;
   }
   #education .row {
-    margin-top: 3vh;
+    margin-top: 2vh;
   }
   #education .nav-tabs {
     padding-top: 0vh;
   }
   #education .nav-item {
     padding-top: 2vh;
-    margin-left: 25vw;
+    margin-left: 10vw;
   }
   #education .row {
-    margin-top: -3vh;
+    margin-top: -4vh;
   }
   #education .educationblock h5 {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 320px) {
+  #education .educationblock h5 {
+    font-size: 1.2rem !important;
+    margin-top: -5vh;
+    margin-left: -1vw;
+  }
+  #education .row {
+    margin-top: 0vh;
+    margin-left: -5vw;
+  }
+  #education .nav-item {
+    padding-top: 2vh;
+    margin-left: 24vw;
   }
 }

@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 offset-sm-3">
-            <h2 data-aos="fade-up">Связитесь со мной!</h2>
+            <h2 data-aos="fade-up">Свяжитесь со мной!</h2>
             <br />
             <form onSubmit={sendEmail} ref={formRef}>
               {/* <form ref={formRef}> */}

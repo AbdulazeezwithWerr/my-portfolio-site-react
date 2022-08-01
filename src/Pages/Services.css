@@ -35,15 +35,15 @@
 }
 @media (max-width: 400px) {
   #services .container {
-    margin-top: 40vh;
+    margin-top: 37vh;
   }
   #services .servicebox {
-    width: 66vw;
+    width: 80vw;
     height: 35vh;
-    margin-left: 26vw;
-    padding: 30px 20px 10px 14px;
+    margin-left: -3vw;
+    padding: 20px 20px 10px 14px;
   }
   #services h2 {
-    margin-left: 20vw;
+    margin-left: 10vw;
   }
 }

@@ -37,13 +37,13 @@
     margin-bottom: 12vh;
   }
   #contact form {
-    width: 70vw;
-    margin-left: 19vw;
+    width: 75vw;
+    margin-left: 9vw;
     margin-top: 5vh;
     padding-top: 0vh;
   }
   #contact input {
-    padding-left: 6vw;
+    padding-left: 4vw;
   }
   #contact textarea {
     padding-left: 6vw;
@@ -51,6 +51,20 @@
   #contact button {
     position: absolute;
     top: 80vh;
-    right: 20vw !important;
+    right: 18vw !important;
+  }
+}
+
+@media (max-width: 320px) {
+  #contact form {
+    width: 70vw;
+    margin-left: 12.5vw;
+    margin-top: 5vh;
+    padding-top: 0vh;
+  }
+  #contact button {
+    position: absolute;
+    top: 83vh;
+    right: 7vw !important;
   }
 }

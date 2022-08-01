@@ -40,9 +40,16 @@
 }
 @media (max-width: 400px) {
   .jsprojects h2 {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
+    margin-left: 23vw;
   }
   .jsprojects .project-name {
     font-size: 1.4rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .jsprojects h2 {
+    font-size: 1.8rem !important;
+    margin-left: 15vw;
   }
 }
